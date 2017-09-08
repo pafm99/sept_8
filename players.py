@@ -18,4 +18,4 @@ class Player(object):
 sea = Team("seahawks","seattle","blue")
 russ = Player("Russ",3)
 sea.players.append(russ)
-print sea.display()
+sea.display()
